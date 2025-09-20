@@ -40,7 +40,7 @@ pip install langchain langchain-openai langchain-community python-dotenv pypdf d
 1. Place your PDF document in the project directory
 2. Open `notebook.ipynb` in Jupyter Notebook or JupyterLab
 3. Update the MODEL variable to choose between:
-   - OpenAI models: `"gpt-4o-mini"` or `"gpt-3.5-turbo"`
+   - OpenAI models: `"gpt-5-nano"`
    - Local models: `"mistral:latest"` or other Ollama models
 4. Run the cells sequentially to:
    - Load and process the PDF document
@@ -54,7 +54,7 @@ The system supports two types of models:
 ### OpenAI Models
 - Requires API key in `.env` file
 - Uses OpenAI embeddings for document vectorization
-- Recommended models: `gpt-4o-mini`, `gpt-3.5-turbo`
+- Recommended models: `gpt-5-nano` for cost efficiency
 
 ### Local Models (Ollama)
 - No API key required
